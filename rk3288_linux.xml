@@ -12,7 +12,6 @@
     <linkfile dest="Makefile" src="build/Makefile"/>
     <linkfile dest="envsetup.sh" src="build/envsetup.sh"/>
   </project>
-  <project name="camera" path="app/camera" revision="master"/>
   <project name="camera_engine_rkisp" path="external/camera_engine_rkisp" revision="master"/>
   <project name="device-custom" path="device/rockchip" revision="master">
      <linkfile dest="mkfirmware.sh" src="common/mkfirmware.sh"/>
@@ -33,7 +32,7 @@
   <project name="recovery" path="external/recovery" revision="develop"/>
   <project name="rk-rootfs-build" path="rootfs" revision="master"/>
   <project name="rk_pcba_test" path="external/rk_pcba_test" revision="master"/>
-  <project name="rkbin" path="rkbin" revision="29mirror"/>
+  <project name="rkbin" path="rkbin" revision="master"/>
   <project name="rkssd" path="external/rkssd" revision="master"/>
   <project name="rktoolkit" path="external/rktoolkit" revision="master"/>
   <project name="rkupdate" path="external/rkupdate" revision="master"/>
